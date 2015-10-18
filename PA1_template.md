@@ -24,7 +24,6 @@ hist(steps.date$steps,main="Total number of steps taken",xlab="steps")
 ![](PA1_template_files/figure-html/unnamed-chunk-2-1.png) 
 
 ```r
-#options(scipen=999)
 steps.mean<-mean(steps.date$steps)
 steps.median<-median(steps.date$steps)
 ```

@@ -24,7 +24,7 @@ steps.date<-activity %>%
 
 hist(steps.date$steps,main="Total number of steps taken",xlab="steps")
 
-#options(scipen=999)
+
 steps.mean<-mean(steps.date$steps)
 steps.median<-median(steps.date$steps)
 ```  
